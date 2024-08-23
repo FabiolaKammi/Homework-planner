@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Ga+Maamli&family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=New+Amsterdam&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+FR+Moderne:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* { 
+    font-family: 'Playwrite France Moderne', 'Edu VIC WA NT Beginner';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../utils/homework.jpg);
+   
+}
+
+.App {
+   text-align: center;
+}
+
+
+h1 {
+    margin: 2rem ;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.5 rem;
+}
+h2 {
+    color: #fff;
+}
+.plan {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #fff;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.todo-container {
+    width: 100vw;
+}
+.todoWrapper {
+    background-color: #13183a;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2rem;
+    border-radius: 5px;   
+}
+
+.TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.todo-input {
+    background: none;
+    border: 5px solid #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1,5rem;
+    margin-top: 2rem;
+    width: 250px;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #e06666;
+}
+ .todo-input::placeholder {
+    color: #fff;
+    font-weight: bold;
+ }
+ .todo-btn {
+    background:#e06666;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 56px;
+    width: 100px;
+ }
+ .Todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 10px;
+ }
+ .completed {
+    color: #162022;
+    cursor: pointer;
+    text-decoration: line-through;
+ }
+.incompleted {
+    cursor: pointer;
+}
+
+.edit-btn,
+.delete-btn {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #e06666;
+
+    margin-left: 0.4rem;
+    padding: 10px;
+}
+
+.footer-section {
+    height: 10vh;
+    width: auto;
+    background-color:#996464;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Edu VIC WA NT Beginner';
+    position: relative;
+    user-select: none ;
+}
+.about-me,
+.contacts,
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+
+.media {
+    align-items:baseline;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+    max-width: 1000px;
+    padding: 150px;
+}
+
+.reflection {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #202020;
+    margin-top: 100px;
+    -webkit-box-reflect: below -60px linear-gradient(transparent, rgb(93, 90, 90))
+}
+
+.center {
+    margin-top: 2rem;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slide{
+    overflow: hidden;
+    height: 50px ;
+    background: #e06666;
+}
+.slide div div {
+    display:inline-block;
+    color:#fff;
+    background: #e06666;
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.slide div:nth-child(1){
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0% {margin-top: -270px}
+    5% {margin-top: -270px}
+    15% {margin-top: -180px}
+    33% {margin-top: -180px}
+    38% {margin-top: -90px}
+    66% {margin-top: -90px}
+    71% {margin-top: 0px}
+    100%{margin-top: -270px}
+
+}
+.paragraph{
+    max-width: 100vw;
+    height: 70vh;
+    background-color: #fff;
+}
+.paragraph h3 {
+    padding-top: 5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 400;
+}
