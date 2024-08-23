@@ -1,71 +1,61 @@
-# Getting Started with Create React App
+Homework Planner 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wireframe 
 
-## Available Scripts
+ 
 
-In the project directory, you can run:
+ 
 
-### `npm start`
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Homework is a fully functional and interactive homework planner app that can allow the user to perform the following tasks: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1-Enter an item; 
 
-### `npm test`
+2- Edit an item; 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3- Delete an item; 
 
-### `npm run build`
+4- Mark the task as completed. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5- Unmarked the task as completed. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A purple blue background color;  
 
-### `npm run eject`
+A pink (#d76868); 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ centered rectangular frame with an original width of and Height of. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inside the rectangular frame, there is  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+H1: color =; purple blue 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Input field under the H1 separated by the 1.5 rem space, border radius 8px, border weight 8px. With a placeholder inside. 
 
-## Learn More
+A submit button at left of the input field; It has the same height as the input field, border radius 5px, font family serif, font weight bold 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+     - When the user submits a new task, the task will appear below the input field and the submit button. The task appears as a long centered horizontal rectangle having inside of it. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The task horizontally aligned to the left; the edit icon follows by the delete icon both horizontally aligned to the right.  
 
-### Code Splitting
+When the user clicks on the task, it changes its color to green and the text takes the “line through” property. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+When the user clicks on the edit icon, a new input field and an Update Task button pop up below the first one with a 1.5 rem space between them allowing the user to modify the task. After modifications the user clicks on the button and the new items all disappear.  
 
-### Analyzing the Bundle Size
+When the delete button is clicked, the task is cleared from the screen. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Notes: The app is a responsive application, and its length is adjusted as the user adds and deletes items. 
 
-### Making a Progressive Web App
+To build the app, I used the followings: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+CSS for styling 
 
-### Advanced Configuration
+React.js because of its convenience and the reusability of its components. I used its “use State” hook to easily track the state of the different elements of the app. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For the icons, I used React-icons library because they give the possibility to import only what I need and then do not reduce the efficiency of the page. Also React Icon library already contains man 
 
-### Deployment
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Homework-planner" 
+ 
